@@ -157,3 +157,11 @@ enable_uboot_cape_universal=1
 
 cmdline=coherent_pool=1M net.ifnames=0 rng_core.default_quality=100 quiet
 ```
+
+
+### cat /proc/cmdline
+
+```
+console=ttyO0,115200n8 bone_capemgr.uboot_capemgr_enabled=1 root=/dev/mmcblk0p1 ro rootfstype=ext4 rootwait coherent_pool=1M net.ifnames=0 lpj=1990656 rng_core.default_quality=100 quiet
+```
+
