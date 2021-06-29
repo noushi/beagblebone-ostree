@@ -33,12 +33,11 @@ Symlinks to have:
 | /boot/loader.0/initrd.img-current | /boot/loader.0/initrd.img-$version |
 | /boot/loader.0/config-current | /boot/loader.0/config-$version |
 
-loader.0/
-   |-> vmlinuz.0
-   |-> initrd.0
-   |-> grub.cfg
-|-> loader.1/
-   |-> vmlinuz.1
-   |-> initrd.1
-   |-> grub.cfg
-|-> loader/
+
+### atomic switch
+
+equivalent to:
+```
+ln -sf /boot/loader.$new /boot/loader
+```
+
