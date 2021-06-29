@@ -36,13 +36,16 @@ Notes:
 | /boot/vmlinuz-current | /boot/loader.0/vmlinuz-current |
 | /boot/initrd.img-current | /boot/loader.0/initrd.img-current |
 | /boot/config-current | /boot/loader.0/config-current |
+| | 
 | # ze switch  |
 | /boot/loader   | /boot/loader.0  | 
+| | 
 | # deployment 0 files | 
 | /boot/loader.0/System-map-current | /boot/loader.0/System-map-$version |
 | /boot/loader.0/vmlinuz-current | /boot/loader.0/vmlinuz-$version |
 | /boot/loader.0/initrd.img-current | /boot/loader.0/initrd.img-$version |
 | /boot/loader.0/config-current | /boot/loader.0/config-$version |
+| | 
 | # deployment 1 files | 
 | /boot/loader.1/System-map-current | /boot/loader.0/System-map-$version |
 | /boot/loader.1/vmlinuz-current | /boot/loader.0/vmlinuz-$version |
