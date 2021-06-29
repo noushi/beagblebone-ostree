@@ -29,7 +29,7 @@ Notes:
 
 | source | target |
 |--|--|
-|#top level files  |
+| #TOP LEVEL SYMLINKS  |
 | /boot/uEnv.txt | /boot/loader/uEnv.txt |
 | /boot/loader/uEnv.txt | /boot/loader.0/uEnv.txt |
 | /boot/System-map-current | /boot/loader/System-map-current |
@@ -37,16 +37,16 @@ Notes:
 | /boot/initrd.img-current | /boot/loader/initrd.img-current |
 | /boot/config-current | /boot/loader/config-current |
 | | 
-| # ze switch  |
+| # THE ATOMIC SWITCH |
 | /boot/loader   | /boot/loader.0  | 
 | | 
-| # deployment 0 files | 
+| # DEPLOYMENT 0 SYMLINKS |
 | /boot/loader.0/System-map-current | /boot/loader.0/System-map-$version |
 | /boot/loader.0/vmlinuz-current | /boot/loader.0/vmlinuz-$version |
 | /boot/loader.0/initrd.img-current | /boot/loader.0/initrd.img-$version |
 | /boot/loader.0/config-current | /boot/loader.0/config-$version |
 | | 
-| # deployment 1 files | 
+| # DEPLOYMENT 1 SYMLINKS |
 | /boot/loader.1/System-map-current | /boot/loader.0/System-map-$version |
 | /boot/loader.1/vmlinuz-current | /boot/loader.0/vmlinuz-$version |
 | /boot/loader.1/initrd.img-current | /boot/loader.0/initrd.img-$version |
@@ -58,9 +58,17 @@ Notes:
 minimal symlinks
 | source | target |
 |--|--|
+| # TOP LEVEL SYMLINKS |
 | /boot/uEnv.txt | /boot/loader/uEnv.txt |
+| /boot/System-map-current | /boot/loader/System-map-current |
+| /boot/vmlinuz-current | /boot/loader/vmlinuz-current |
+| /boot/initrd.img-current | /boot/loader/initrd.img-current |
+| /boot/config-current | /boot/loader/config-current |
+| |
+| # THE ATOMIC SWITCH |
 | /boot/loader   | /boot/loader.0  | 
-| /boot/loader/uEnv.txt | /boot/loader.0/uEnv.txt |
+| |
+| DEPLOYMENT 0 SYMLINKS |
 | /boot/loader.0/System-map-current | /boot/loader.0/System-map-$version |
 | /boot/loader.0/vmlinuz-current | /boot/loader.0/vmlinuz-$version |
 | /boot/loader.0/initrd.img-current | /boot/loader.0/initrd.img-$version |
