@@ -7,6 +7,7 @@ with /boot/uEnv.txt containing:
 ...
 uname_r=$version
 ...
+cmdline=coherent_pool=1M net.ifnames=0 lpj=1990656 rng_core.default_quality=100 quiet
 ```
 
 u-boot will bootstrap $version using the following files:
@@ -84,3 +85,16 @@ equivalent to:
 ln -sf /boot/loader.$new /boot/loader
 ```
 
+### uEnv.txt content
+
+```
+...
+uname_r=current
+...
+cmdline=coherent_pool=1M net.ifnames=0 lpj=1990656 rng_core.default_quality=100 quiet $ostree_args
+```
+
+with:
+```
+ostree_args="ostree=/path/to/ostree/dir..."
+```
