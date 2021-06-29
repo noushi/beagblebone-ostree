@@ -32,6 +32,57 @@ fusectl on /sys/fs/fuse/connections type fusectl (rw,relatime)
 tmpfs on /run/user/1000 type tmpfs (rw,nosuid,nodev,relatime,size=50448k,mode=700,uid=1000,gid=1000)
 ```
 
+```
+/boot
+/boot/uboot
+/boot/System.map-4.19.59-bone-rt-r36
+/boot/uEnv.txt
+/boot/vmlinuz-4.19.59-bone-rt-r36
+/boot/SOC.sh
+/boot/initrd.img-4.19.59-bone-rt-r36
+/boot/config-4.19.59-bone-rt-r36
+/boot/dtbs
+/boot/dtbs/4.19.59-bone-rt-r36
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-boneblack-wireless.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-evm.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-cm-t335.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-baltos-ir5221.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-baltos-ir3220.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-boneblue.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-bonegreen-wireless.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-lxm.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-sbc-t335.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-boneblack-bbb-exp-r.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-boneblack-wl1835mod.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-nano.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-pdu001.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-bonegreen-wireless-uboot-univ.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-sancloud-bbe.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-phycore-rdk.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-baltos-ir2110.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-boneblack-bbbmini.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-evmsk.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-bonegreen.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-abbbi.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-base0033.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-pepper.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-moxa-uc-8100-me-t.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-boneblack-uboot.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-bone.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-icev2.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-shc.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-boneblack-audio.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-pocketbeagle.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-bone-uboot-univ.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-wega-rdk.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-sl50.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-boneblack-uboot-univ.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-chiliboard.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-osd3358-sm-red.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-boneblack.dtb
+/boot/dtbs/4.19.59-bone-rt-r36/am335x-boneblack-bbb-exp-c.dtb
+```
+
 
 ###  /boot/uEnv.txt
 
