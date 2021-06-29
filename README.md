@@ -7,6 +7,9 @@
 1. [ ] custom beaglebone uboot compatibility w/ ostree
 1. [ ] ostree kernel cmline argument value
 1. [x] u-boot aware ostree layout
+1. [ ] automated ostree deployment generation
+1. [ ] ostree deployment serving
+
 
 ## diags on running system (no ostree)
 
