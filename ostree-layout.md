@@ -36,6 +36,7 @@ Notes:
 | /boot/vmlinuz-current | /boot/loader.0/vmlinuz-current |
 | /boot/initrd.img-current | /boot/loader.0/initrd.img-current |
 | /boot/config-current | /boot/loader.0/config-current |
+| | |
 | /boot/loader.0/System-map-current | /boot/loader.0/System-map-$version |
 | /boot/loader.0/vmlinuz-current | /boot/loader.0/vmlinuz-$version |
 | /boot/loader.0/initrd.img-current | /boot/loader.0/initrd.img-$version |
