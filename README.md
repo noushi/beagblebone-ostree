@@ -32,6 +32,8 @@ fusectl on /sys/fs/fuse/connections type fusectl (rw,relatime)
 tmpfs on /run/user/1000 type tmpfs (rw,nosuid,nodev,relatime,size=50448k,mode=700,uid=1000,gid=1000)
 ```
 
+### find /boot
+
 ```
 /boot
 /boot/uboot
