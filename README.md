@@ -2,11 +2,11 @@
 
 ## considerations
 
-1. stree + special devices restore
-1. uboot + ostree (boot process)
-1. custom beaglebone uboot compatibility w/ ostree
-1. ostree kernel cmline argument value
-
+1. [ ] stree + special devices restore
+1. [ ] uboot + ostree (boot process)
+1. [ ] custom beaglebone uboot compatibility w/ ostree
+1. [ ] ostree kernel cmline argument value
+1. [ ] u-boot aware ostree layout
 
 ## diags on running system (no ostree)
 
