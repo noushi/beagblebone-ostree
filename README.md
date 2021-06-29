@@ -1,5 +1,11 @@
 # beagblebone-ostree
 
+## considerations
+
+- ostree + special devices restore
+- uboot + ostree (boot process)
+- custom beaglebone uboot compatibility w/ ostree
+
 
 ## diags on running system (no ostree)
 
