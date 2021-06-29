@@ -31,11 +31,11 @@ Notes:
 |--|--|
 |#top level files  |
 | /boot/uEnv.txt | /boot/loader/uEnv.txt |
-| /boot/loader/uEnv.txt | /boot/loader.0/uEnv.txt |
-| /boot/System-map-current | /boot/loader.0/System-map-current |
-| /boot/vmlinuz-current | /boot/loader.0/vmlinuz-current |
-| /boot/initrd.img-current | /boot/loader.0/initrd.img-current |
-| /boot/config-current | /boot/loader.0/config-current |
+| /boot/loader/uEnv.txt | /boot/loader/uEnv.txt |
+| /boot/System-map-current | /boot/loader/System-map-current |
+| /boot/vmlinuz-current | /boot/loader/vmlinuz-current |
+| /boot/initrd.img-current | /boot/loader/initrd.img-current |
+| /boot/config-current | /boot/loader/config-current |
 | | 
 | # ze switch  |
 | /boot/loader   | /boot/loader.0  | 
