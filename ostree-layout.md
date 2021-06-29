@@ -29,21 +29,21 @@ Notes:
 
 | source | target |
 |--|--|
-|#top level files | |
+|#top level files  |
 | /boot/uEnv.txt | /boot/loader/uEnv.txt |
 | /boot/loader/uEnv.txt | /boot/loader.0/uEnv.txt |
 | /boot/System-map-current | /boot/loader.0/System-map-current |
 | /boot/vmlinuz-current | /boot/loader.0/vmlinuz-current |
 | /boot/initrd.img-current | /boot/loader.0/initrd.img-current |
 | /boot/config-current | /boot/loader.0/config-current |
-| Ze switch | |
+| # ze switch  |
 | /boot/loader   | /boot/loader.0  | 
-| deployment 0 files | |
+| # deployment 0 files | 
 | /boot/loader.0/System-map-current | /boot/loader.0/System-map-$version |
 | /boot/loader.0/vmlinuz-current | /boot/loader.0/vmlinuz-$version |
 | /boot/loader.0/initrd.img-current | /boot/loader.0/initrd.img-$version |
 | /boot/loader.0/config-current | /boot/loader.0/config-$version |
-| deployment 1 files | |
+| # deployment 1 files | 
 | /boot/loader.1/System-map-current | /boot/loader.0/System-map-$version |
 | /boot/loader.1/vmlinuz-current | /boot/loader.0/vmlinuz-$version |
 | /boot/loader.1/initrd.img-current | /boot/loader.0/initrd.img-$version |
