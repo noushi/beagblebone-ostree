@@ -31,7 +31,7 @@ Notes:
 |--|--|
 |#top level files  |
 | /boot/uEnv.txt | /boot/loader/uEnv.txt |
-| /boot/loader/uEnv.txt | /boot/loader/uEnv.txt |
+| /boot/loader/uEnv.txt | /boot/loader.0/uEnv.txt |
 | /boot/System-map-current | /boot/loader/System-map-current |
 | /boot/vmlinuz-current | /boot/loader/vmlinuz-current |
 | /boot/initrd.img-current | /boot/loader/initrd.img-current |
